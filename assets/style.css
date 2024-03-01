@@ -68,3 +68,68 @@ body{
     background:#ff505d;
     color: white;
 }
+
+@media only screen and (max-width:600px){
+    body{
+        background: white;
+    }
+    
+    .wrapper{
+        width: 320px;
+        height:440px;
+        margin: 65px auto;
+        background: gainsboro;
+        border-radius: 15px;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+    
+    #display{
+        border: none;
+        outline:none;
+        width:300px;
+        height:80px;
+        color:lightgrey;
+        font-size: 58px;
+        font-weight: 700;
+        padding: 10px;
+        text-align: right;
+        background:#ff505d ;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .buttons-box{
+        margin: 35px 15px;
+    
+    }
+    
+    .btn{
+        width:53px;
+        height: 53px;
+        margin: 8px;
+        border: none;
+        outline: none;
+        color:grey;
+        cursor: pointer;
+        font-size: 28px;
+        line-height: 30px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.1);
+    
+    } 
+    
+    .btn:hover{
+        background: lightgray;
+    }
+    
+    .cbtn, .cbtn:hover{
+        background:#ff505d;
+        color: white;
+    }
+    
+    
+    .mbtn, .mbtn:hover{
+        background:#ff505d;
+        color: white;
+    }
+}
