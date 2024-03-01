@@ -7,14 +7,14 @@
 }
 
 body{
-    background: lightgray;
+    background: white;
 }
 
 .wrapper{
     width: 350px;
     height:480px;
     margin: 65px auto;
-    background: white;
+    background: gainsboro;
     border-radius: 15px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -24,12 +24,12 @@ body{
     outline:none;
     width:330px;
     height:80px;
-    color:#5e5858;
+    color:lightgrey;
     font-size: 58px;
     font-weight: 700;
     padding: 10px;
     text-align: right;
-    background:tomato ;
+    background:#ff505d ;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -45,25 +45,26 @@ body{
     margin: 8px;
     border: none;
     outline: none;
-    color:#5e5858
+    color:grey;
     cursor: pointer;
     font-size: 28px;
     line-height: 30px;
     border-radius: 50%;
-    background: #ecedef;
+    background: rgba(0, 0, 0, 0.1);
+
 } 
 
 .btn:hover{
-    background: rgba(0, 0, 0, 0.1);
+    background: lightgray;
 }
 
 .cbtn, .cbtn:hover{
-    background: red;
+    background:#ff505d;
     color: white;
 }
 
 
 .mbtn, .mbtn:hover{
-    background:orangered;
+    background:#ff505d;
     color: white;
 }
