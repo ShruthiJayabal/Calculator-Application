@@ -75,8 +75,8 @@ body{
     }
     
     .wrapper{
-        width: 320px;
-        height:440px;
+        width: 280px;
+        height:400px;
         margin: 65px auto;
         background: gainsboro;
         border-radius: 15px;
@@ -86,8 +86,8 @@ body{
     #display{
         border: none;
         outline:none;
-        width:300px;
-        height:80px;
+        width:260px;
+        height:70px;
         color:lightgrey;
         font-size: 58px;
         font-weight: 700;
@@ -104,8 +104,8 @@ body{
     }
     
     .btn{
-        width:53px;
-        height: 53px;
+        width:43px;
+        height: 43px;
         margin: 8px;
         border: none;
         outline: none;
